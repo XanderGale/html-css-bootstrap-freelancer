@@ -31,9 +31,15 @@
                     <nav>
                         
                         <ul class="d-flex justify-content-end align-items-center">
-                            <li>Portfolio</li>
-                            <li>About</li>
-                            <li>Contact</li>
+                            <li>
+                                <a href="#">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
                         </ul>
 
                     </nav>
@@ -45,16 +51,112 @@
     <main>
 
         <!-- Jumbo -->
-        <div class="ms_jumbo d-flex flex-column justify-content-center align-items-center">
+        <section class="ms_jumbo d-flex flex-column justify-content-center align-items-center">
             <img class="ms_img_container" src="img/avatar.svg" alt="Avatar Image">
 
             <h1>START BOOTSTRAP</h1>
 
             <h5>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h5>
-        </div>
+        </section>
 
-        
+        <!-- Portfolio -->
+        <section class="ms_portfolio">
+            <div class="container">
+                <h2 class="text-center">PORTFOLIO</h2>
+
+                <div class="row row-cols-lg-3 row-cols-md-2 row-cols-xs-1">
+
+                    <img class="col ms_box" src="img/cabin.png" alt="Cabin Img">
+
+                    <img class="col ms_box" src="img/cake.png" alt="Cake Img">
+
+                    <img class="col ms_box" src="img/circus.png" alt="Circus Img">
+
+                    <img class="col ms_box" src="img/game.png" alt="Game Img">
+    
+                    <img class="col ms_box" src="img/safe.png" alt="Safe Img">
+    
+                    <img class="col ms_box" src="img/submarine.png" alt="Submarine Img">
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="ms_about">
+            <div class="ms_about_container">
+                <h2 class="text-center">ABOUT</h2>
+                <div class="row row-cols-lg-2 row-cols-md-2 row-cols-xs-1">
+
+                    <div class="col text-right">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos a exercitationem minima commodi molestiae ullam blanditiis, dolor sint dolorem laudantium similique iusto distinctio tempore aperiam nostrum illum officiis iste corporis.
+                    </div>
+
+                    <div class="col text-left">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos a exercitationem minima commodi molestiae ullam blanditiis, dolor sint dolorem laudantium similique iusto distinctio tempore aperiam nostrum illum officiis iste corporis.
+                    </div>
+
+                </div>
+                <br>
+                <p class="text-center">Download Button</p>
+            </div>
+        </section>
+
+        <!-- Contact Me -->
+        <section class="ms_contactme">
+            <div class="ms_contactme_container">
+                <h2 class="text-center">CONTACT ME</h2>
+
+                <div class="row row-cols-1">
+
+                    <div class="col">
+
+                        <ul class="ms_contactme_list d-flex flex-column justify-content-center align-items-start">
+                            <li>
+                                <a href="#">Contact Me</a>
+                            </li>
+                            <li>
+                                <a href="#">Email Address</a>
+                            </li>
+                            <li>
+                                <a href="#">Phone Number</a>
+                            </li>
+                            <li>
+                                <a href="#">Message</a>
+                            </li>
+                            <li>
+                                <a class="button green" href="#">Send</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <section class="ms_prefooter">
+            <div class="container">
+                <div class="row row-cols-lg-3 row-cols-md-3 row-cols-xs-1">
+                    <div class="col d-flex flex-column justify-content-center align-items-center">
+                        <h3>Location</h3>
+                        <p>2215 John Daniel Drive Clark, MO 5423</p>
+                    </div>
+                    <div class="col">
+                        <h3>AROUND THE WEB</h3>
+                    </div>
+                    <div class="col">
+                        <h3>ABOUT FREELANCER</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <p class="text-center">Copyright your website 2019</p>
+        </section>
+    </footer>
     
     
 </body>
