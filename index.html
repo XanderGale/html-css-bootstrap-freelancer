@@ -13,13 +13,16 @@
     <!-- My style-->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
 
     <header>
         <div class="container">
-            <div class="row row-cols-2">
-                <div class="col">
+            <div class="row">
+                <div class="col col-xs-9 col-md-6">
                     <div class="ms_logo_container d-flex justify-content-start align-items-center">
 
                         <h3>Start Bootstrap</h3>
@@ -27,20 +30,30 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col col-xs-3 col-md-6">
                     <nav>
-                        
-                        <ul class="d-flex justify-content-end align-items-center">
-                            <li>
-                                <a href="#">Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="#">About</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact</a>
-                            </li>
-                        </ul>
+
+                        <div class="navblock d-block d-md-none">
+                            <ul class="d-flex justify-content-end align-items-center">
+                                <li>
+                                    <a href="#"><i class="fas fa-bars"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="navblock d-none d-md-block">
+                            <ul class="d-flex justify-content-end align-items-center">
+                                <li>
+                                    <a href="#">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#">About</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
 
                     </nav>
                 </div>    

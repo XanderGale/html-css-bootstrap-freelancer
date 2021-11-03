@@ -34,6 +34,9 @@ nav{
     text-transform: uppercase;
     height: 100%;
 }
+.navblock{
+    height: 100%;
+}
 ul{
     list-style-type: none;
     height: 100%;
@@ -51,9 +54,10 @@ ul li a{
 /* Jumbo */
 .ms_jumbo{
     background-color: #1abc9c;
+    text-align: center;
 }
 .ms_img_container{
-    max-height: 150px;
+    max-height: 250px;
 }
 
 /* Portfolio */
