@@ -124,23 +124,30 @@
 
                     <div class="col">
 
-                        <ul class="ms_contactme_list d-flex flex-column justify-content-center align-items-start">
-                            <li>
-                                <a href="#">Contact Me</a>
-                            </li>
-                            <li>
-                                <a href="#">Email Address</a>
-                            </li>
-                            <li>
-                                <a href="#">Phone Number</a>
-                            </li>
-                            <li>
-                                <a href="#">Message</a>
-                            </li>
-                            <li>
-                                <a class="button green" href="#">Send</a>
-                            </li>
-                        </ul>
+                        <div class="form-container">
+
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label sr-only" for="username">Name</label>
+                                    <input type="text" class="form-control" id="username" aria-describedby="Username" placeholder="Name">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label sr-only" for="useremail">Email Address</label>
+                                    <input type="text" class="form-control" id="email" aria-describedby="Email" placeholder="Email Address">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label sr-only" for="phone">Phone Number</label>
+                                    <input type="number" class="form-control" id="userphone" aria-describedby="Phone" placeholder="Phone Number" >
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label sr-only" for="usermessage">Message</label>
+                                    <textarea class="form-control" id="usermessage" rows="3" placeholder="Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn green">Send</button>
+                            </form>
+
+                        </div>
+
                     </div>
                 </div>
             </div>
