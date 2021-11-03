@@ -5,6 +5,18 @@ body{
 section{
     padding: 5%;
 }
+.ms_star_container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+.ms_star{
+    display: block;
+    width: 100%;
+}
 
 /* Buttons */
 .green{
