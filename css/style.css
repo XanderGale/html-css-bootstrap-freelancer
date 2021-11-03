@@ -14,14 +14,35 @@ section{
     width: 100%;
 }
 .ms_star{
-    display: block;
-    width: 100%;
+    display: inline-block;
+    margin: 10px;
+}
+.ms_star_after {
+	display: inline-block;
+	content: '';
+	width: 10%;
+	height: 3px;
+    border-radius: 5px;
 }
 
-/* Buttons */
+.ms_star_before {
+	display: inline-block;
+	content: '';
+	width: 10%;
+	height: 3px;
+    border-radius: 5px;
+}
+
+/* Backgrounds */
 .green{
     background-color: #1abc9c;
     color: white;
+}
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
 }
 
 /* Header */
